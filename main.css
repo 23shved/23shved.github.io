@@ -1,0 +1,289 @@
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: rgb(254, 255, 221);
+    /* transform: scale(2); */
+}
+
+a:hover {
+    transform: scale(1.22);
+    transition-duration: 0.6s;
+}
+
+@font-face {
+    font-family: 'Libre';
+    src: url(./styles/fonts/LibreFranklin-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Libre-Light';
+    src: url(./styles/fonts/static/LibreFranklin-Light.ttf);
+}
+
+.back-fon {
+    height: 100%;
+    width: 100%;
+    background-image: url(./styles/images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cont-t {
+    width: 1441px;
+    height: 768px;
+    margin: 0 auto;
+}
+
+.box-1 {
+    height: 100%;
+    width: 100%;
+    background-color: #78531038;
+    ;
+    display: flex;
+    position: relative;
+}
+
+.portofolio {
+    width: 1109px;
+    height: 29px;
+    position: absolute;
+    top: 93px;
+    left: 166px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listoflinks {
+    width: 529px;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-style-1 {
+    font-family: Libre-Light;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+
+.text-style-2 {
+    font-family: Libre-Light;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+}
+
+.text-field {
+    position: absolute;
+    bottom: 240px;
+    left: 166px;
+    width: 694px;
+    height: 261px;
+}
+
+.hi-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 78px;
+    position: relative;
+    color: white;
+}
+
+.designer-text {
+    font-family: Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 110px;
+}
+
+.latest-text {
+    font-family: Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    position: absolute;
+    bottom: 0;
+    text-decoration: underline;
+}
+
+.for-mobile {
+    display: none;
+}
+
+.fixed-top {
+    display: none;
+}
+
+.cont-m {
+    width: 1440px;
+    height: 544px;
+    position: relative;
+    margin: 0 auto;
+}
+.cont-d{
+    height: 693px;
+    border: 1px solid black;
+}
+.about {
+    position: absolute;
+    top: 93px;
+    left: 165px;
+    font-family: Libre;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+.box-3{
+
+    height: 350px;
+    border: 1px solid black;
+    padding: 0;
+    
+}
+.row{
+  margin-top: 50px ;
+    display: flex;
+    justify-content: center;
+}
+.text-box {
+    position: absolute;
+    left: 166px;
+    bottom: 155px;
+    font-family: Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    width: 1107px;
+    height: 231px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 376px) {
+    .fixed-top {
+        display: flex;
+    }
+    .box-3{
+
+        height: 309px;
+        border: 1px solid black;
+        padding: 0;
+        
+    }
+    .text-box {
+        left: 34px;
+        bottom: 8px;
+        font-size: 12px;
+        line-height: 15px;
+        width: 312px;
+        height: 212px;
+    }
+    .cont-d{
+        height: 617px;
+    }
+    .about {
+        top: 25px;
+        left: 150px;
+    }
+    .portofolio {
+        display: none;
+    }
+    .cont-t {
+        width: 373px;
+        height: 275px;
+    }
+    .back-fon {
+        width: 373px;
+        height: 275px;
+    }
+    .text-field {
+        position: absolute;
+        bottom: 50px;
+        left: 78px;
+        width: 217px;
+        height: 110px;
+        display: flex;
+        justify-content: center;
+        justify-self: center;
+    }
+    .hi-text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .designer-text {
+        font-size: 13px;
+        line-height: 16px;
+        top: 40px;
+        left: 19px;
+    }
+    .latest-text {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .burger-menu {
+        display: flex;
+        position: absolute;
+        left: 15px;
+        top: 40px;
+        width: 24px;
+        height: 24px;
+    }
+    .navbar-toggler-icon {
+        width: 25px;
+        height: 25px;
+    }
+    .p-4 {
+        padding: 0.3rem!important;
+        width: 120px;
+        height: 110px;
+        position: absolute;
+        right: 10px;
+        top: 5px;
+    }
+    .bg-color-pers {
+        background-color: rgba(0, 34, 44, 0.596);
+        border-radius: 15px;
+    }
+    .text-muted {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+    .top-info {
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .navbar-toggler {
+        padding: 0.15rem 0.35rem;
+        font-size: 1.25rem;
+        line-height: 0;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+    }
+    .for-mobile {
+        display: flex;
+        margin: 50px auto;
+    }
+    .cont-m {
+        width: 375px;
+        height: 293px;
+    }
+    
+}
